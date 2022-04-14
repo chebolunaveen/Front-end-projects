@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-    
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bulb control</title>
-    <link rel="stylesheet" href="gallery.css">
-  
+<link rel="stylesheet" href="gallery.css">
+    <title>Gallery Project</title>
 </head>
-<body id="body" style="background-color: rgb(58, 48, 48);" >
-    <h1 style="text-align: center;">Bulb Control</h1>
-    <div class="div">
-        
-        <img id="myimage" src="https://www.w3schools.com/html/pic_bulboff.gif" alt="bulb"  width="100" height="180"><br><br>
-        &nbsp;&nbsp;&nbsp;<button type="button" id="button" onclick="light()">Light On</button><br><br>
-        <h1 id="h1">Turn On light to Enter java Script Tutorials</h1>
+<body>
+    <div class="container">
+        <div class="panel " id="panel-1" onclick="selectpanel('panel-1')">
+            <h3>Explore the World</h3>
+        </div>
+        <div class="panel" id="panel-2" onclick="selectpanel('panel-2')">
+            <h3>Wild Forest</h3>
+        </div>
+        <div class="panel" id="panel-3" onclick="selectpanel('panel-3')">
+            <h3>Sunny Beach</h3>
+        </div>
+        <div class="panel" id="panel-4" onclick="selectpanel('panel-4')">
+            <h3>City On Winter</h3>
+        </div>
+        <div class="panel" id="panel-5" onclick="selectpanel('panel-5')">
+            <h3>Mountain Cloud</h3>
+        </div>
+    </div>
+    <script src="gallery.js">
 
-   </div>
-  
+    </script>
 </body>
 </html>
