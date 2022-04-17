@@ -1,7 +1,14 @@
+h1{
+  text-align: center;
+  font-family:'Times New Roman', Times, serif
+
+}
 .container{
     max-width: 400px;
-    margin: 10vh auto 0 auto;
+    margin: 6vh auto 0 auto;
     box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
+     border-radius: 5px;
+     
   }
   
   #display{
@@ -10,11 +17,15 @@
     line-height: 70px;
     padding: 16px 8px;
     font-size: 25px;
+    background-color: aqua;
+    border:0.1px solid black;
   }
   
   .buttons{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-radius: 5px;
+        border:0.1px solid black;
   }
  
   .button {
@@ -23,6 +34,8 @@
     text-align: center;
     font-size: 25px;
     cursor: pointer;
+    border-radius: 5px;
+  
   } 
   
   #equal {
@@ -35,3 +48,25 @@
     color: white;
     transition: 0.5s ease-in-out;
   }
+
+  #div{
+    background-color: #20b2aa;
+  }
+  #mul{
+    background-color: #ffa500;
+  }
+  #add{
+    background-color: #f08080;
+  }
+  #sub{
+    background-color: #7d93e0;
+  }
+  #equ{
+    background-color: #9477af;
+  }
+  body { 
+    background-image: url(https://i.pinimg.com/originals/5f/c7/cd/5fc7cdc4147553b6e565a6384fbe24ef.png) ; 
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}

@@ -10,29 +10,31 @@
     <title>Calculator</title>
 </head>
 <body>
+      <h1>Naveen's calculator</h1>
     <div class="container">
-        <div  id="display">0</div>
+        
+        <b><div  id="display" style="border-radius:5px;">0</div></b>
         <div class="buttons">
         <div class="button" onclick="clicked('CLR')">CLR</div>
         <div class="button" onclick="clicked('DEL')"><i class="fa-solid fa-delete-left"></i></div>
-        <div class="button" onclick="clicked('%')">%</div>
-        <div class="button" onclick="clicked('/')">/</div>
+        <div class="button" onclick="clicked('%')" id="mod">%</div>
+        <div class="button" onclick="clicked('/')" id="div">/</div>
         <div class="button" onclick="clicked(7)">7</div>
         <div class="button" onclick="clicked(8)">8</div>
         <div class="button" onclick="clicked(9)">9</div>
-        <div class="button" onclick="clicked('*')">*</div>
+        <div class="button" onclick="clicked('*')" id="mul">*</div>
         <div class="button" onclick="clicked(4)">4</div>
         <div class="button" onclick="clicked(5)">5</div>
         <div class="button" onclick="clicked(6)">6</div>
-        <div class="button" onclick="clicked('-')">-</div>
+        <div class="button" onclick="clicked('-')" id="sub">-</div>
         <div class="button" onclick="clicked(1)">1</div>
         <div class="button" onclick="clicked(2)">2</div>
         <div class="button" onclick="clicked(3)">3</div>
-        <div class="button" onclick="clicked('+')">+</div>
+        <div class="button" onclick="clicked('+')" id="add">+</div>
         <div class="button"onclick="clicked(0)">0</div>
         <div class="button"onclick="clicked('00')">00</div>
         <div class="button"onclick="clicked('.')">.</div>
-        <div class="button"onclick="clicked('=')">=</div>   
+        <div class="button"onclick="clicked('=')" id="equ">=</div>   
     </div>
     </div>
     <script src="calculator.js"></script>
