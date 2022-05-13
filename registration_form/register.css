@@ -1,0 +1,12 @@
+.display-5{
+    position: relative;
+    top:65px;
+    text-align: center;
+} 
+.registration-form{
+    width: 80%;
+    margin: 10% auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 25px;
+  }
