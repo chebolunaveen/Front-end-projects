@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OrderStatusmanagement</title>
+
+   <link rel="stylesheet" href="order.css">
+   
+</head>
+<body>
+    <div class="container">
+        <h1>Order Status Management</h1>
+   <input type="text" placeholder="Please Enter Order ID" id="order-id">
+    <button onclick="executeOrder(() => {
+        console.log('Order is handed over to zomota Guy')
+        addDone(x++)
+
+    })"> Execute Order</button>
+  
+  <h2 id="order-Id-Info"></h2>
+    <div class="status" id="Order-Placed">
+        Order Placed
+    </div>
+    <div  class="status" id="Chef-Received">
+        Chef received the order and Start Preparing
+    </div>
+    <div class="status" id="Pizza-Sauce">
+        pizza sauce Added
+    </div>
+    <div class="status" id="First-Layer">
+        First layer of cheese Added
+    </div>
+    <div  class="status" id="Chef-Received">
+        Toppings Added
+    </div>
+    <div  class="status" id="Chef-Received">
+        Second layer of cheeze Added
+    </div>
+    <div  class="status" id="Pizza-Baked">
+        pizza Baked
+    </div>
+    <div class="status" id="Order-Packed">
+        Order packed
+    </div>
+    <div class="status" id="Package-Received">
+        package received at counter
+    </div>
+    <div class="status" id="Package-Received">
+   Order is handed over to Zomota guy!
+    </div>
+    <script src="order.js"></script>
+</div>
+</body>
+</html>
